@@ -1,0 +1,48 @@
+name: angell_study
+description: Angell Study — your personal study workspace
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  # State management
+  provider: ^6.1.1
+  
+  # Local database
+  sqflite: ^2.3.0
+  path: ^1.8.3
+  
+  # Rich text editor (Notion-style)
+  flutter_quill: ^9.3.5
+  
+  # PDF export
+  pdf: ^3.10.7
+  printing: ^5.12.0
+  
+  # UI
+  google_fonts: ^6.1.0
+  flutter_animate: ^4.3.0
+  lucide_icons: ^0.0.3
+  
+  # Storage
+  shared_preferences: ^2.2.2
+  path_provider: ^2.1.1
+  
+  # Utils
+  uuid: ^4.2.1
+  intl: ^0.18.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
